@@ -1,16 +1,31 @@
-# React + Vite
+# 🧠 MindSync-GPT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![MindSync-GPT Banner](https://via.placeholder.com/1200x400?text=MindSync-GPT+A+Full+Stack+AI+Chat+Application)
+**MindSync-GPT** is a powerful, full-stack AI chat application built using the **MERN Stack** (MongoDB, Express, React, Node.js). It integrates **Google's Gemini AI** to provide intelligent, real-time responses and features secure user authentication via **Firebase**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   🤖 **AI-Powered Conversations:** Utilizes the Google Gemini Pro model for high-quality natural language processing.
+-   🔐 **Secure Authentication:** User login and signup powered by **Firebase Auth** (Google Sign-In).
+-   ☁️ **Cloud Database:** Chat history is securely stored in **MongoDB**, allowing users to access past conversations from any device.
+-   🎨 **Dark/Light Mode:** Fully functional theme toggle with local storage persistence.
+-   🗑️ **History Management:** Users can delete specific chat threads or clear their entire history via Settings.
+-   📱 **Responsive Design:** A clean, modern UI built with **React + Vite**.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **Frontend:** React.js, Vite, CSS3
+-   **Backend:** Node.js, Express.js
+-   **Database:** MongoDB (Mongoose)
+-   **AI Model:** Google Gemini API
+-   **Authentication:** Firebase
+-   **State Management:** React Context API
 
-## Expanding the ESLint configuration
+## ⚙️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Shivamkumar1409/MindSync-GPT.git](https://github.com/Shivamkumar1409/MindSync-GPT.git)
+cd MindSync-GPT
