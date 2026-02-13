@@ -1,0 +1,96 @@
+.chatwindow {
+    background-color: var(--bg-color); 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* Aligns title to the left */
+    align-items: center;
+    padding: 1rem 0; /* Add top/bottom padding */
+}
+
+.navbar span {
+    margin: 0 2rem; /* Keep left margin for spacing */
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-secondary); 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.navbar span:hover {
+    color: var(--text-primary); 
+}
+
+/* --- CHAT INPUT AREA --- */
+.chatInput {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox {
+    width: 100%;
+    position: relative;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    border: none;
+    background-color: var(--input-bg); 
+    padding: 20px;
+    font-size: 0.8rem;
+    border-radius: 14px;
+    color: var(--text-primary); 
+    box-shadow: rgba(0, 0, 0, 0, 0.05) 0 54px 55px,
+        rgba(0, 0, 0, 0.05) 0 12px 30px,
+        rgba(0, 0, 0, 0.05) 0 4px 6px,
+        rgba(0, 0, 0, 0.05) 0 12px 3px,
+        rgba(0, 0, 0, 0.05) 0 -3px 5px;
+}
+
+input:focus {
+    outline: none;
+    background-color: var(--hover-color); 
+}
+
+#submit {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary); 
+}
+
+#submit:hover {
+    color: var(--text-primary); 
+}
+
+.info {
+    font-size: 0.8rem;
+    padding: 1rem;
+    color: var(--text-secondary); 
+}

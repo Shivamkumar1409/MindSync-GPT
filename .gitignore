@@ -1,0 +1,12 @@
+# Ignore node_modules in any folder (Root, Backend, or Frontend)
+node_modules/
+
+# Ignore .env files in any folder (Crucial for security!)
+.env
+.env.local
+
+# Mac System files
+.DS_Store
+
+# Vite build output
+dist/

@@ -1,0 +1,42 @@
+/* ... overlay styles ... */
+
+.settings-modal {
+    background: var(--modal-bg); 
+    width: 400px; border-radius: 12px; padding: 20px;
+    color: var(--text-primary); 
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    border: 1px solid var(--border-color); 
+}
+
+.settings-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-color); 
+    padding-bottom: 10px;
+}
+
+.close-btn-icon {
+    background: none; border: none;
+    color: var(--text-secondary); 
+    font-size: 24px; cursor: pointer;
+}
+
+.close-btn-icon:hover { color: var(--text-primary); }
+
+.settings-section h3 {
+    font-size: 14px;
+    color: var(--text-secondary); 
+    text-transform: uppercase; margin-bottom: 10px; font-weight: 600;
+}
+
+.theme-select {
+    background: var(--input-bg); 
+    color: var(--text-primary); 
+    border: 1px solid var(--border-color); 
+    padding: 5px 10px; border-radius: 6px;
+}
+
+.danger-zone {
+    border-top: 1px solid var(--border-color); 
+    padding-top: 20px;
+}
